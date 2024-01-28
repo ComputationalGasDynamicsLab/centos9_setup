@@ -2,6 +2,15 @@
 
 Setup new linux computer with CentOS 9 stream
 
+
+#### install nvidia-driver
+Follow [this link](https://linuxhint.com/install-nvidia-drivers-centos/) to install nvidia driver on CentOS 9 stream
+
+
+#### install cuda toolkit 11.7
+Follow [this link](https://www.server-world.info/en/note?os=CentOS_Stream_9&p=nvidia&f=4) to install cuda toolkit 11.7 on CentOS 9 stream
+
+
 #### install `mpich` from CentOS 9 repository (not recommended)
 
 To install mpich `3.4.2` on CentOS 9 Stream, do the following
@@ -61,7 +70,6 @@ And install with (using sudo since install to default /usr/local/bin directory):
 ```
 sudo make install |& tee mi.txt
 ```
-
 
 #### Change default core dump file pattern
 With CentOS 9 stream, the default core dump file location is not the current working directory. This can be
