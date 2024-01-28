@@ -75,7 +75,7 @@ sudo sysctl -w kernel.core_pattern="core_%e.%p"
 ```
 
 #### Mount OneDrive
-- Look for (this link for steps)[https://kb.uconn.edu/space/IKB/26050527301/Setting+up+OneDrive+on+Linux] to mount OneDrive on CentOS 9
+- Look for [this link for steps](https://kb.uconn.edu/space/IKB/26050527301/Setting+up+OneDrive+on+Linux) to mount OneDrive on CentOS 9
 
 
 - If after computer restart, the hard drive is not visible, then the following command can be used:
