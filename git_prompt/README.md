@@ -1,7 +1,7 @@
 #### bash/zsh git prompt support
-Below is a copy from `git-prompt.sh` file for better rendering on GitHub
-
-The `git-prompt.sh` allows you to see repository status in your prompt. To enable, do the following:
+- Below is a copy from `git-prompt.sh` file for better rendering on GitHub.
+- The `git-prompt.sh` allows you to see repository status in your prompt.
+- To enable, do the following:
 ```
     1) Copy this file to somewhere (e.g. ~/.git-prompt.sh).
     2) Add the following line to your .bashrc/.zshrc:
@@ -26,6 +26,7 @@ The `git-prompt.sh` allows you to see repository status in your prompt. To enabl
         Optionally, you can supply a third argument with a printf
         format string to finetune the output of the branch status
 ```
-The repository status will be displayed only if you are currently in a
-git repository. The %s token is the placeholder for the shown status.
+- The most important steps are (1) and (2).
+- The repository status will be displayed only if you are currently in a
+git repository. The `%s` token is the placeholder for the shown status.
 The prompt status always includes the current branch name.
