@@ -61,7 +61,7 @@ If the above command does not work, then use the following command:
 ../configure --with-device=ch4:ofi FFLAGS=-fallow-argument-mismatch |& tee c.txt
 ```
 Options `--with-device` and `FFLAGS` above are used to specify communication device and gfortran flags.
-
+- If the `configure` command is not executed successfully, then stop, do not proceed, and fix the issue with the execution of the above `configure` command.
 - If gfortran is missing, then it can be installed below before invoking the above command line:
 ```
 sudo dnf install libgfortran
@@ -71,8 +71,6 @@ sudo dnf install gfortran
 ```
 make |& tee m.txt
 ```
-- If the `configure` command is not executed successfully, then stop, do not proceed, and fix the issue with the execution of the above `configure` command.
-
 4. After successful `make` command, install with (using sudo since install to default /usr/local/bin directory):
 
 ```
