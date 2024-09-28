@@ -51,22 +51,29 @@ sudo dnf install mpich-3.4.2
 The `mpich` installed from CentOS 9 Stream does not include mpicxx, mpicc, as such, we install `mpich` from source.
 - Download `mpich` source from [this link](https://www.mpich.org/static/downloads/3.4.3/).
 
-- Use following command to configure the installation:
+1. Create a folder called `build` inside the source file folder of `mpich`.
+2. Go into the `build` folder, and use the following command to configure the installation:
 ```
 ./../configure --with-device=ch4:ofi FFLAGS=-fallow-argument-mismatch |& tee c.txt
 ```
-Options above are used to specify communication device and gfortran flags.
+If the above command does not work, then use the following command:
+```
+../configure --with-device=ch4:ofi FFLAGS=-fallow-argument-mismatch |& tee c.txt
+```
+Options `--with-device` and `FFLAGS` above are used to specify communication device and gfortran flags.
 
 - If gfortran is missing, then it can be installed below before invoking the above command line:
 ```
 sudo dnf install libgfortran
 sudo dnf install gfortran
 ```
-Then compile mpich with:
+3. After the `configure` command has been executted successfully, then compile `mpich` with the following commands:
 ```
 make |& tee m.txt
 ```
-And install with (using sudo since install to default /usr/local/bin directory):
+- If the `configure` command is not executed successfully, then stop, do not proceed, and fix the issue with the execution of the above `configure` command.
+
+4. After successful `make` command, install with (using sudo since install to default /usr/local/bin directory):
 
 ```
 sudo make install |& tee mi.txt
