@@ -9,10 +9,16 @@ Follow [this link](https://linuxhint.com/install-nvidia-drivers-centos/) to inst
 
 #### install cuda toolkit 11.7
 Follow [this link](https://www.server-world.info/en/note?os=CentOS_Stream_9&p=nvidia&f=4) to install cuda toolkit 11.7 on CentOS 9 stream
+```
+https://www.server-world.info/en/note?os=CentOS_Stream_9&p=nvidia&f=4
+```
 
 #### install `mpich` from source
 The `mpich` installed from CentOS 9 Stream does not include mpicxx, mpicc, as such, we install `mpich` from source.
-- Download `mpich` source from [this link](https://www.mpich.org/static/downloads/3.4.3/).
+- Download `mpich3.4.3` source from [this link](https://www.mpich.org/static/downloads/3.4.3/).
+```
+https://www.mpich.org/static/downloads/3.4.3/
+```
 
 1. Create a folder called `build` inside the source file folder of `mpich`.
 2. Go into the `build` folder, and use the following command to configure the installation:
