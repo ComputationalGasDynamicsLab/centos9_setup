@@ -46,6 +46,19 @@ make |& tee m.txt
 sudo make install |& tee mi.txt
 ```
 
+#### Install Cmake 3.25.3
+To install `Cmake` from source:
+- Download `cmake 3.25.3` source from [this link](https://cmake.org/files/v3.25/cmake-3.25.3.tar.gz).
+```
+   https: https://cmake.org/files/v3.25/cmake-3.25.3.tar.gz
+```
+- Inside the untared `cmake` folder, execute the following command as suggested in `README.rst` file:
+```
+  ./bootstrap && make && sudo make install
+```
+
+
+
 #### Change default core dump file pattern
 With CentOS 9 stream, the default core dump file location is not the current working directory. This can be
  verified by the following command:
