@@ -70,3 +70,8 @@ Refer to the following posts on how to do this properly:
 ```
 rclone --vfs-cache-mode writes mount OneDrive: ~/OneDrive &
 ```
+
+#### Caching your GitHub credentials in Git
+Look for below posts on how to cache your github creditials for `pull` and `push` operations:
+- https://stackoverflow.com/questions/5343068/is-there-a-way-to-cache-https-credentials-for-pushing-commits
+- https://docs.github.com/en/get-started/getting-started-with-git/caching-your-github-credentials-in-git
