@@ -57,6 +57,11 @@ After that, its location can be changed to current working directory with:
 sudo sysctl -w kernel.core_pattern="core_%e.%p"
 ```
 
+#### Mount new hard drives
+Refer to the following posts on how to do this properly:
+- https://akrabat.com/setting-up-a-new-hard-drive-in-linux/
+- https://www.adamsdesk.com/posts/add-disk-drive-linux/
+
 #### Mount OneDrive
 - Look for [this link for steps](https://kb.uconn.edu/space/IKB/26050527301/Setting+up+OneDrive+on+Linux) to mount OneDrive on CentOS 9
 
