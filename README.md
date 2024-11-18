@@ -46,8 +46,8 @@ make |& tee m.txt
 sudo make install |& tee mi.txt
 ```
 
-#### Install Cmake 3.25.3
-To install `Cmake` from source:
+#### Install Cmake from source
+To install `Cmake 3.25.3` from source:
 - Download `cmake 3.25.3` source from [this link](https://cmake.org/files/v3.25/cmake-3.25.3.tar.gz).
 ```
    https: https://cmake.org/files/v3.25/cmake-3.25.3.tar.gz
