@@ -27,7 +27,7 @@ The static IP address is the number located next to the `inet` keyword (it will 
 
 ## Step 2: Connect to the VPN
 
-<img width="295" height="417" alt="VPN" src="https://github.com/user-attachments/assets/0eb266fa-593e-4ba0-b9e1-1b52170be849" />
+<img width="295" height="417" alt="VPN" src="https://github.com/user-attachments/assets/90806770-69b0-4c23-9375-1a833e445ec2" />
 
 1.  Open the **GlobalProtect** application on your local machine.
 2.  In the **Portal** field, enter `vpn.und.edu` and click **Connect**.
@@ -45,7 +45,7 @@ The static IP address is the number located next to the `inet` keyword (it will 
 
 3.  You will be prompted to enter your password. Type it in and press Enter to connect. You are now remotely connected to your workstation's command line.
 
-<img width="871" alt="terminal_ssh" src="https://github.com/user-attachments/assets/896641ee-77e9-42ac-adf2-2c31f7edcf23" />
+<img width="1244" height="371" alt="terminal_ssh" src="https://github.com/user-attachments/assets/24412171-4ee6-4fba-8e3f-8ab7bd0cecf1" />
 
 ---
 
