@@ -9,7 +9,7 @@ This guide provides instructions on how to connect to, monitor, and transfer fil
 Before you begin, you will need two things:
 
 * **Your Workstation's static IP Address**: The unique address of your workstation on the network.
-* **GlobalProtect VPN**: The VPN client must be installed on the local machine you are connecting from. Installation instructions can be found here: [https://und.teamdynamix.com/TDClient/2048/IT/KB/ArticleDet?ID=145487](https://und.teamdynamix.com/TDClient/2048/IT/KB/ArticleDet?ID=145487)
+* **GlobalProtect VPN**: The VPN client must be installed on the local machine you are connecting from. Installation instructions can be found [at this link](https://und.teamdynamix.com/TDClient/2048/IT/KB/ArticleDet?ID=145487).
 
 ---
 
