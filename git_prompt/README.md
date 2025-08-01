@@ -1,3 +1,7 @@
+### Git prompt
+To enable `git prompt`, where the current git branch is shown in the terminal, user 
+can follow the instructions below:
+
 #### bash/zsh git prompt support
 - Below is a copy from `git-prompt.sh` file for better rendering on GitHub.
 - The `git-prompt.sh` allows you to see repository status in your prompt.
